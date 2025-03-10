@@ -303,10 +303,6 @@ require('lazy').setup({
   { 'wakatime/vim-wakatime', lazy = false },
 
   {
-    'github/copilot.vim'
-  },
-
-  {
     'linux-cultist/venv-selector.nvim',
     dependencies = { 'neovim/nvim-lspconfig', 'nvim-telescope/telescope.nvim', 'mfussenegger/nvim-dap-python' },
     opts = {
